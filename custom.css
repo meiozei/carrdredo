@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Amaranth', sans-serif;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+#header {
+    background: url("bgblur2.png") no-repeat fixed top;
+    background-size: cover;
+    padding: 20%;
+}
+
+#aboutme {
+    background: url("bgblur3.png") no-repeat fixed top;
+    background-size: cover;
+    padding: 20%;
+}
+
+.imgfloat1 {
+    width: 300px;
+    height: 300px;
+    box-sizing: border-box;
+    overflow: hidden;
+    transform: translatey(0px);
+    animation: float 2.5s ease-in-out infinite;
+    display: flex;
+    margin-left: 3vw;
+}
+
+#color1 {
+    color: whitesmoke;
+}
+
+.resize {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 2%;
+    border-radius: 25px;
+    box-shadow: 10px 10px 5px black;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #6673eb9f;
+    border-color: #6673eb9f;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #2427b998;
+    border-color: #2427b998;
+}
+
+.size1 {
+    font-size: xx-large;
+}
+
+.top {
+    margin-top: 5%;
+}
+
+.lineHeight {
+    line-height: 20px;
+}
+
+.hidden {
+    opacity: 0.1;
+}
+
+#byfDfi {
+    background: url('bgblur4.png')no-repeat fixed top;
+    background-size: cover;
+    padding: 20%;
+}
+
+.imgRegular {
+    margin-right: auto;
+    margin-left: auto;
+    width: 30%;
+}
+
+#interests {
+    background:url('bgblur5.png') no-repeat fixed top;
+    background-size: cover;
+    padding: 20%;
+}
+
+hr {
+    border-top: 3px dashed whitesmoke;
+}
+
+#friends {
+    background:url('bgblur6.png') no-repeat fixed top;
+    background-size: cover;
+    padding: 20%;
+}
+
+#filler {
+    background:url('same.jpg') no-repeat fixed top;
+    background-size: cover;
+    padding: 20%;
+}
+
+#end {
+    background:url('bgblur7.png') no-repeat fixed top;
+    background-size: cover;
+    padding: 20%;
+}
+
+.vidCenter {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+a {
+    color: whitesmoke;
+    font-size: x-large;
+}
+
+a:hover {
+    color: #2427b998;
+}
+
+@keyframes float {
+    0% {
+        transform: translatey(0px);
+    }
+    50% {
+        transform: translatey(-20px);
+    }
+    100% {
+        transform: translatey(0px);
+    }
+}
